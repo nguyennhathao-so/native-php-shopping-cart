@@ -13,17 +13,17 @@ $_CONFIG = [
     // Application Base URL
     // 'baseurl' => 'http://localhost/shopping-cart',      // Standar Localhost
     // 'baseurl' => 'http://shopping-cart.test',           // Virtual Host (Laragon)
-    'baseurl' => 'http://192.168.1.7/shopping-cart',   // LAN IP Address for Mobile Testing
+    'baseurl' => 'https://php-shop-hao.azurewebsites.net',   // LAN IP Address for Mobile Testing
 
     // Index Controller
     'index' => 'Home',
 
     // Database Configuration
     'database' => [
-        'host'  => 'localhost',
-        'user'  => 'root',
-        'pass'  => '',
-        'name'  => 'native_php_shopping_cart',
+        'host'  => 'cloud.mysql.database.azure.com',
+        'user'  => 'Admin_',
+        'pass'  => 'Cloud123',
+        'name'  => 'shop',
     ],
 
 ];
